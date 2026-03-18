@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    
+}
+
+/* THIS IS NAVIGATION BAR */
+nav{
+    background-color: olivedrab;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+.logo-img{
+    padding-left: 15px;
+    position: relative;
+    bottom: -3px;
+}
+
+.logo{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-family: 'Bad Script', cursive;;
+    color: whitesmoke;
+}
+
+.menu{
+    float: right;
+    position: relative;
+    right: 5px;
+    margin: 22px 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bad Script', cursive;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+
+/* THIS IS HOME PAGE */
+.home-page{
+    background-color: darkkhaki;
+}
+
+.home{
+    background: olivedrab;
+    display: inline-block;
+    margin-left: 42%;
+    margin-top: 100px;
+    padding: 3px 30px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.welcome{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 45px;
+    margin-top: 0;
+}
+
+
+
+.bread-img{
+    margin-right: 25px;
+    margin-left: 95px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s;
+    
+}
+
+.bread-img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+span{
+    font-size: 25px;
+    color: #ff7200;
+    font-weight: bold;
+}
+
+span:hover{
+     color: #ff5100;
+}
+
+.prgh1{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding-bottom: 45px;
+    font-family: 'Bad Script', cursive;
+    color: white;
+}
+
+/* THIS IS RECIPES PAGE */
+.recipes-page{
+    background-color: #2d4c4f;
+}
+
+.recipes{
+    background: olivedrab;
+    display: inline-block;
+    margin-left: 40%;
+    margin-bottom: 15px;
+    padding: 3px 25px;        
+    border-radius: 15px;  
+    color: white;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 50px;                            
+}
+
+.how{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bread-img1{
+    margin-top: 45px;
+    margin-left: 11%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.step-one{
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    margin-top: 15px;
+    padding-top: 25px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: white;
+}
+
+.bread-img2{
+    margin-top: 45px;
+    margin-left: 30%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+.step-two{
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 15px;
+    padding-top: 25px;
+    color: white;
+}
+
+.bread-img3{
+    margin-top: 45px;
+    margin-left: 11%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.step-three{
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    color: white;
+}
+
+
+/* THIS IS ABOUT-PSOMI PAGE*/
+.about-psomi{
+    background-color: darkkhaki;
+}
+
+.about{
+    background: olivedrab;
+    display: inline-block;
+    margin-left: 28%;
+    margin-bottom: 15px;
+    padding: 3px 25px;        
+    border-radius: 15px;  
+    color: white;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 50px;   
+}
+
+.what{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.prgh2{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding-bottom: 45px;
+    font-family: 'Bad Script', cursive;
+    color: white;
+}
+
+
+/* THIS END PAGE*/
+.end-page{
+    background-color: olivedrab;
+}
+
+h3{
+    display: inline-block;
+    margin-left: 34%;
+    margin-bottom: 15px;
+    padding: 3px 25px;        
+    border-radius: 15px;  
+    color: white;
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    
+}
+
